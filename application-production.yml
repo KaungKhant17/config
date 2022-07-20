@@ -12,3 +12,6 @@ spring:
       on-profile: test2
 server:
   port: 8086
+---
+server:
+  port: 8088
