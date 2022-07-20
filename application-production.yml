@@ -1,12 +1,14 @@
 spring:
-  profiles:
-    active: test
+  config:
+    activate:
+      on-profile: test
 server:
   port: 8085
   
 ---
 spring:
-  profiles:
-    active: test2
+  config:
+    activate:
+      on-profile: test2
 server:
   port: 8086
