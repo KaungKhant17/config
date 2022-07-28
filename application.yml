@@ -1,4 +1,7 @@
 spring:
   application:
     name: application
-
+server:
+  port: 8081
+greeting:
+  message: Hello World!
